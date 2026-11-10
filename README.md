@@ -22,6 +22,12 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 | [`mix-master-reference`](skills/mix-master-reference/SKILL.md) | Quick reference: gain staging, typical settings, chain order, loudness targets, common mistakes |
 | [`dance-arrangement-architect`](skills/dance-arrangement-architect/SKILL.md) | Arrangement mode for dance music: energy flow and layout in 8, 16, and 32 bar blocks |
 
+## Everything in one file
+
+[`MIX-WIZARD.md`](MIX-WIZARD.md) is the complete guide: all thirteen skills compiled into a single document. Read it straight through, or paste it into any AI assistant to load the whole method at once.
+
+Some skills offer different ways to do the same job (two master chain orders, two high-pass schemes). Both are kept on purpose; the reference skill has a table saying when to pick each.
+
 ## Suggested order
 
 1. `vocal-tracking` while recording
@@ -58,7 +64,7 @@ Other options:
 
 - **One-line installer:** `npx skills add WizardofOm/mix-wizard-ableton` detects your installed tools and places the skills for you.
 - **Claude app:** open a skill's `SKILL.md`, copy it, and ask Claude to save it as a skill.
-- **ChatGPT or any chat assistant:** paste a skill's `SKILL.md` into the conversation, or into a custom GPT's or project's instructions, and ask your question.
+- **ChatGPT or any chat assistant:** paste [`MIX-WIZARD.md`](MIX-WIZARD.md) (everything) or a single skill's `SKILL.md` into the conversation, or into a custom GPT's or project's instructions, and ask your question.
 - **Tools without skill support:** open this folder as your project. [`AGENTS.md`](AGENTS.md) indexes every skill and tells the assistant when to read each one.
 
 ## Using them

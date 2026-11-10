@@ -5,7 +5,18 @@ description: Use for quick mixing and mastering facts in Ableton Live - gain sta
 
 # Mix and Master Reference
 
-A compact working reference. Use it to answer quick questions and to sanity-check a plan. Where another Mix Wizard skill gives a specific method for the job (for example `low-end-handoff`, `master-polish`, `parallel-bus`), follow that skill and use this for the general numbers.
+A compact working reference. Use it to answer quick questions and to sanity-check a plan. It sits alongside the other Mix Wizard skills; where they differ, both approaches are valid and the section below says when to pick each.
+
+## Where methods differ
+
+| Topic | Option A | Option B | How to choose |
+| --- | --- | --- | --- |
+| Master chain order | **Polish chain** (`master-polish`): exciter first, light compression, saturation, resonance control, low-end check, dynamic EQ, limiter | **Standard chain** (section 8 below): Utility, surgical EQ, tonal EQ, glue compression, optional multiband, saturation, limiter | Polish chain when the mix is already balanced and needs shine and loudness. Standard chain when the mix needs corrective EQ first, or for a neutral, conservative master. |
+| Limiter ceiling | about -1 dBTP | down to -0.3 dBTP | -1 dBTP for streaming and anything that will be encoded to a lossy format. Closer to -0.3 only for club or WAV delivery where every bit of level matters. |
+| High-pass points | **Handoff** (`low-end-handoff`): guitars and keys about 110 Hz, drums about 80 Hz, gentle slopes, bass walled at 30 Hz | **General**: 30 to 80 Hz on most non-bass sources | Handoff when building the low end of a band or dense arrangement as one unit. General range for individual tracks in sparse or electronic mixes. |
+| 250 Hz cut | **Blanket pass** (`clean-eq`): about -2 dB, wide, on nearly every track before listening | **Targeted**: cut 200 to 500 Hz only where a track shows build-up | Blanket pass as a fast first move on a cloudy mix. Targeted cuts when the mix is already clean and only one or two tracks are thick. |
+
+Say which option you are using and why, then let the user's ears decide.
 
 ## 1. Core principles
 
