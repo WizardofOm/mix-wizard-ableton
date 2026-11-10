@@ -25,15 +25,35 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 4. `compression-math` and `depth-with-limiters` for control and depth
 5. `master-polish` to finish
 
+## Works with
+
+The skills use the open Agent Skills format (`SKILL.md`), so the same files work in Claude, OpenAI Codex, Cursor, Gemini CLI, and other tools that read it. Nothing needs converting.
+
 ## Install
 
-Claude Code:
+Get the files once:
 
 ```bash
-git clone https://github.com/WizardofOm/mix-wizard-ableton ~/.claude/skills/mix-wizard
+git clone https://github.com/WizardofOm/mix-wizard-ableton
 ```
 
-Claude app: open a skill's `SKILL.md`, copy it, and ask Claude to save it as a skill.
+Then copy the skill folders to where your tool looks for them:
+
+| Tool | Command |
+| --- | --- |
+| Claude Code | `mkdir -p ~/.claude/skills && cp -r mix-wizard-ableton/skills/* ~/.claude/skills/` |
+| OpenAI Codex | `mkdir -p ~/.agents/skills && cp -r mix-wizard-ableton/skills/* ~/.agents/skills/` |
+| Cursor | `mkdir -p ~/.cursor/skills && cp -r mix-wizard-ableton/skills/* ~/.cursor/skills/` |
+| Gemini CLI | `mkdir -p ~/.gemini/skills && cp -r mix-wizard-ableton/skills/* ~/.gemini/skills/` |
+
+Restart the tool afterward so it picks up the new skills.
+
+Other options:
+
+- **One-line installer:** `npx skills add WizardofOm/mix-wizard-ableton` detects your installed tools and places the skills for you.
+- **Claude app:** open a skill's `SKILL.md`, copy it, and ask Claude to save it as a skill.
+- **ChatGPT or any chat assistant:** paste a skill's `SKILL.md` into the conversation, or into a custom GPT's or project's instructions, and ask your question.
+- **Tools without skill support:** open this folder as your project. [`AGENTS.md`](AGENTS.md) indexes every skill and tells the assistant when to read each one.
 
 ## Using them
 
