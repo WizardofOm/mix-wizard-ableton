@@ -14,6 +14,8 @@ If your tool loads skills natively, install the folders from `skills/` and ignor
 | has a loose, boomy, or thin low end, or asks where to high-pass | `skills/low-end-handoff/SKILL.md` |
 | can't hear the vocal clearly against guitars, keys, or synths | `skills/vocal-guitar-pocket/SKILL.md` |
 | asks how compression, ratio, threshold, or makeup gain work | `skills/compression-math/SKILL.md` |
+| says the mix is thin or lacks glue, or asks about parallel compression | `skills/parallel-bus/SKILL.md` |
+| wants to compare the mix to a commercial track, or asks if it is finished | `skills/reference-check/SKILL.md` |
 | is finishing a track and wants it louder, shinier, or release-ready | `skills/master-polish/SKILL.md` |
 | is about to record vocals, or asks about microphones at home | `skills/vocal-tracking/SKILL.md` |
 

@@ -14,6 +14,8 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 | [`low-end-handoff`](skills/low-end-handoff/SKILL.md) | Staggered gentle high-pass filters so guitars, drums, and bass share the low end |
 | [`vocal-guitar-pocket`](skills/vocal-guitar-pocket/SKILL.md) | Complementary EQ so vocals stay clear against guitars and keys |
 | [`compression-math`](skills/compression-math/SKILL.md) | Ratio, threshold, and makeup gain in plain arithmetic |
+| [`parallel-bus`](skills/parallel-bus/SKILL.md) | One heavily compressed return blended under the mix for glue and density |
+| [`reference-check`](skills/reference-check/SKILL.md) | Comparing a bounce to commercial tracks outside the session at matched loudness |
 | [`master-polish`](skills/master-polish/SKILL.md) | Master-bus exciter and a light mastering chain built around a loud chorus |
 | [`vocal-tracking`](skills/vocal-tracking/SKILL.md) | Mic choice, mic position as EQ, and performance level for home recording |
 
@@ -22,8 +24,9 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 1. `vocal-tracking` while recording
 2. `level-first-mix` to set the balance
 3. `clean-eq`, `low-end-handoff`, `vocal-guitar-pocket` to shape tone
-4. `compression-math` and `depth-with-limiters` for control and depth
-5. `master-polish` to finish
+4. `compression-math`, `depth-with-limiters`, and `parallel-bus` for control, depth, and glue
+5. `reference-check` against records you trust
+6. `master-polish` to finish
 
 ## Works with
 
