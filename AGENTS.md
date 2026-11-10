@@ -19,6 +19,7 @@ If your tool loads skills natively, install the folders from `skills/` and ignor
 | wants to compare the mix to a commercial track, or asks if it is finished | `skills/reference-check/SKILL.md` |
 | is finishing a track and wants it louder, shinier, or release-ready | `skills/master-polish/SKILL.md` |
 | is about to record vocals, or asks about microphones at home | `skills/vocal-tracking/SKILL.md` |
+| has a loop or unfinished dance track and needs structure or energy flow | `skills/dance-arrangement-architect/SKILL.md` |
 
 ## Rules for every skill
 

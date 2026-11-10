@@ -19,6 +19,7 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 | [`reference-check`](skills/reference-check/SKILL.md) | Comparing a bounce to commercial tracks outside the session at matched loudness |
 | [`master-polish`](skills/master-polish/SKILL.md) | Master-bus exciter and a light mastering chain built around a loud chorus |
 | [`vocal-tracking`](skills/vocal-tracking/SKILL.md) | Mic choice, mic position as EQ, and performance level for home recording |
+| [`dance-arrangement-architect`](skills/dance-arrangement-architect/SKILL.md) | Arrangement mode for dance music: energy flow and layout in 8, 16, and 32 bar blocks |
 
 ## Suggested order
 
