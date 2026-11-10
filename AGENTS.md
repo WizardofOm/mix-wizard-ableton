@@ -8,6 +8,7 @@ If your tool loads skills natively, install the folders from `skills/` and ignor
 
 | When the user... | Read |
 | --- | --- |
+| wants a blunt expert diagnosis, or asks for engineer mode | `skills/perception-first-engineer/SKILL.md` |
 | says the mix is muddy, dull, or boxy, or asks how to EQ | `skills/clean-eq/SKILL.md` |
 | is starting a mix, or asks how to balance levels or set faders | `skills/level-first-mix/SKILL.md` |
 | wants something more forward or further back, or has an uneven vocal take | `skills/depth-with-limiters/SKILL.md` |

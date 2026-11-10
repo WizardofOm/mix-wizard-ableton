@@ -8,6 +8,7 @@ These are Claude Skills: short instruction files that teach an AI assistant how 
 
 | Skill | What it does |
 | --- | --- |
+| [`perception-first-engineer`](skills/perception-first-engineer/SKILL.md) | Engineer mode: blunt diagnosis of the perceptual problem, then an exact stock-device chain |
 | [`clean-eq`](skills/clean-eq/SKILL.md) | Gentle 250 Hz dip across the session, and broad curves instead of narrow ones |
 | [`level-first-mix`](skills/level-first-mix/SKILL.md) | Static balance from RMS meters before any processing |
 | [`depth-with-limiters`](skills/depth-with-limiters/SKILL.md) | Light limiting on tracks and buses to place sounds front to back |
